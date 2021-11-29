@@ -1,0 +1,195 @@
+
+h1{
+    text-align:center;
+}
+table{
+    border:1px solid black;
+    border-collapse:collapse;
+    width:100%;
+}
+th,td{
+    text-align:left;
+    padding:8px;
+    border-bottom:1px solid#ddd;
+}
+
+tr:nth-child(even){
+    background-color: #FFE3E3;
+}
+
+
+body {
+    margin-left: 60px;
+    margin-top:20px;
+    width:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("Pictures\whiteback.jpg");
+  }
+  #nav{
+	height: 50px;
+	background: white;
+
+    }
+    .headerText {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 36px;
+        color: #000;
+
+    }
+  .topnav {
+    overflow: hidden;
+    background-color:white;
+    
+  }
+
+  .topnav2nd{
+    position: absolute;
+    right: 0;
+    width: 580px;
+    height: 120px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+  }
+  
+  .topnav2nd a:hover {
+    background-color: #D52020;
+    color:white;
+  }
+  
+ 
+
+  .homepagetext{
+      color:black;
+  }
+
+  .TextBox{
+    color:white;
+    background-color: #D52020;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    margin: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;;
+    float: center;
+    margin-left:600px;
+
+  }
+
+  .TextBox h1{
+    text-align:center;
+  }
+
+  hr.new2{
+    border: 1px solid white;
+    background-color: white;
+    width:40%;
+    margin-bottom:30px;
+  }
+  hr.new1{
+    border: 5px solid #D52020;
+    width:90px;
+    max-width: 100px;
+    background-color: #D52020;
+    margin: 0px;
+    margin-bottom: 30px;
+    color: white;
+  }
+
+  .divider{
+    width:auto;
+    height:100%;
+    margin: auto;
+    background-color: #333333;
+    margin-top: 38px;
+    color: #FFF;
+    line-height: 250%;
+    font-size: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;   
+    margin-left:-5%;
+    margin-right:-0.5%;
+    margin-bottom:-5%;
+  }
+
+  .indianacontact p{
+      margin-left: 150px;
+  }
+.contacttable {
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: 160px;
+    text-align: left;
+}
+.divider3{
+   display:flex;
+}
+.contact2 p{
+    margin-left: 150px;
+
+}
+
+.contact3 p{
+    margin-left: 150px;
+
+}
+
+.divider1{
+    display:flex;
+    color:white;
+}
+
+.bot a:link, .bot a:visited {
+  background-color: #D52020;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.bot a:hover, a:active {
+  background-color: #D24B4B;
+  color: black;
+}
+
+.bot button[type=submit]{
+  background-color: #D52020;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type=submit]{
+  background-color: white;
+  border: none;
+  color: #D52020;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top:10px;
+  
+}
+
+input[type=submit]:hover{
+  background-color: #D24B4B;
+ color: white;
+}

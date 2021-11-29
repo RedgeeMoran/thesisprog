@@ -1,0 +1,162 @@
+body {
+    margin-left: 60px;
+    margin-top:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("Pictures\whiteback.jpg");
+
+  }
+  #nav{
+	height: 50px;
+	background: white;
+
+    }
+    .headerText {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 36px;
+        color: #000;
+
+    }
+  .topnav {
+    overflow: hidden;
+    background-color:white;
+  }
+
+  .topnav2nd{
+    position: absolute;
+    right: 0;
+    width: 580px;
+    height: 120px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav2nd a:hover {
+    background-color: #D52020;
+    color:white;
+  }
+  
+ 
+
+  .homepagetext{
+      color:black;
+  }
+
+  .TextBox{
+    color:white;
+    background-color: #D52020;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    margin: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;;
+    float: left;
+  }
+
+  .TextBox h1{
+    text-align:center;
+  }
+
+  hr.new2{
+    border: 1px solid white;
+    background-color: white;
+    width:40%;
+    margin-bottom:30px;
+  }
+
+  hr.new1{
+    border: 5px solid #D52020;
+    width:90px;
+    max-width: 100px;
+    background-color: #D52020;
+    margin: 0px;
+    margin-bottom: 30px;
+  }
+
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    width: 270px;
+    margin: 40px;
+    text-align: center;
+    font-family: arial;
+    float: left;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #D52020;
+  }
+  
+
+  .AllCards{
+      float: center;
+  }
+
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 510px;
+    perspective: 1000px;
+    float: left;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-back {
+    background-color: #D52020;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  p {
+    margin:30px;
+  }
+
+ 
