@@ -17,7 +17,7 @@
         <a href="RunningOfficers.php">Running Officers</a>
         <a href="CurrentOfficers.php">Current Officers</a>
         <a href="Announcements.php">Patch</a>
-        <a href="LoginPage.php">Log out</a>
+        <a href="index.php">Log out</a>
 </div>
     </div>
     <div class="homepagetext"style="padding-left:16px">

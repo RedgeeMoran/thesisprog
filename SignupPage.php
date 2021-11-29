@@ -18,7 +18,7 @@ include_once("DBConnect/connection.php");
             //Alt +Z
             $sql = "INSERT INTO `empusers` (`id`, `username`, `password`, `access`) VALUES (NULL, '$usern', '$pass', NULL)";
             $con->query($sql) or die ($con->error);
-            echo header('Location:LoginPage.php');
+            echo header('Location:index.php');
             }
 
         
