@@ -1,9 +1,9 @@
 <?php
 function connection(){
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "votingsystem";
+    $servername = "sql6.freemysqlhosting.net";
+    $username = "sql6454988";
+    $password = "bUQHPAfLyG";
+    $dbname = "sql6454988";
     
     $con = new mysqli($servername, $username, $password, $dbname);
     
